@@ -1,0 +1,28 @@
+item, TotalCommander, %Commander_Path%\totalcmd.exe, Parameters
+
+sub_start, &WebSites
+sub_start, &Privat
+item, my Spacemen, https://docs.google.com/spreadsheets/d/17Y-uQPmGWTrtWPxZLK6he-JaEW2DuOWsix8UZP1dpJU/edit#gid=0, , %Commander_PAth%\Tools\Online\Operaopera.exe
+sub_end
+sub_start, &News
+sub_end
+sub_start, &Boards
+sub_end
+sub_end
+
+sub_start, &Internet
+item, Foxmail, Programme\Foxmail\Foxmail.Exe
+item, PopUpAdFilter, Programme\PopupAdFilter\PopFilter.Exe
+item, mIRC, Programme\mIRC\mIRC.Exe
+item, FlashGet, Programme\FlashGet\FlashGet.Exe
+item, WinMx, Programme\WinMx\WinMx.Exe
+item, LeechFtp, Programme\LeechFtp\LeechFtp.Exe
+item, -
+item, Putty, Programme\Putty.Exe
+item, psFTP, Programme\psFTP.Exe, -l sir_silva -pw 17ronja04 shell.sourceforge.net
+sub_end
+
+sub_start, &Programme
+sub_end
+
+notes, notiz 0123456789012345678901
